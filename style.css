@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient();
+    background: linear-gradient(to right, #c31432, #240b36);
+}
+.wrapper {
+    height: 270px;
+    width: 420px;
+    background: #240b36;
+    padding: 30px 30px 35px;
+    border-radius: 7px;
+    transition: height 0.2 ease;
+}
+.wrapper.active {
+    height: 525px;
+
+}
+.wrapper form {
+    height: 210px;
+    background: #fff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: height 0.2 ease;
+
+}
+.wrapper.active form {
+    height: 225px;
+    pointer-events: none;
+}
+
+form img {
+    max-width: 148px;
+    display: none;
+}
+.wrapper.active form img {
+    display: block;
+    width: 100%;
+}
+.wrapper.active form  .content {
+    display: none;
+}
+form .content{
+    /* display: none; */
+}
+
+form .content i {
+    color: #c31432;
+    font-size: 55px;
+}
+form .content p {
+    color: #c31432;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.wrapper .details {
+    opacity: 0;  
+    pointer-events: none;
+    margin-top: 25px;
+}
+.wrapper.active .details {
+    opacity: 1;  
+    pointer-events: auto;
+    margin-top: 25px;
+    transition: opacity 0.5s 0.05s ease;
+}
+
+.details textarea {
+    width: 100%;
+    height: 128px;
+    padding: 10px 15px;
+    outline: none;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+}
+.wrapper .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.wrapper button {
+    height: 55px;
+    outline: none;
+    border: none;
+    color: #240b36;
+    width: calc(100% / 2 - 10px);
+    background: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.wrapper button:hover {
+    color: #c31432;
+    background-color: #240b36;
+}
