@@ -14,11 +14,11 @@ Overall, a QR scanner project is an excellent example of how HTML, CSS, and Java
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/107539107/230912178-2764b416-0023-4aa9-9206-3090469273f2.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/107539107/230912495-a09bb43e-65e8-4b60-98f2-b7e1714f78a7.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/107539107/230912653-b13d6f24-b419-401d-bd85-39b72c55bfd9.png)
 
 ## Acknowledgements
 
@@ -26,6 +26,8 @@ Overall, a QR scanner project is an excellent example of how HTML, CSS, and Java
  - [Coding Nepal Web](https://www.codingnepalweb.com/qr-code-reader-html-javascript/)
 
 
+## Logo
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Untitled design](https://user-images.githubusercontent.com/107539107/230912927-4f8dc924-5f78-4b88-a0e4-8eb5c71e8284.png)
+
 
